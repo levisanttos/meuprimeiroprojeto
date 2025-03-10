@@ -9,6 +9,6 @@ public class ProdutoController {
 	
 	@GetMapping("/produtos/nome-produto")
 	public String getNomeProduto() {
-		return "Produto indiponivel";
+		return "Produto indiponivel.";
 	}
 }
